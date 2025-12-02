@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{0969439d-1d59-4846-81c0-524d664f0e1c}" name="MS-DOS" OSType="DOS" stateFile="Snapshots/2025-11-25T11-41-11-770311000Z.sav" snapshotFolder="Snapshots" lastStateChange="2025-11-25T11:41:11Z">
+  <Machine uuid="{0969439d-1d59-4846-81c0-524d664f0e1c}" name="MS-DOS" OSType="DOS" snapshotFolder="Snapshots" lastStateChange="2025-12-02T11:58:11Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{00afb63b-d0a4-4f13-9c18-5596f463a40b}" location="MS-DOS.vdi" format="VDI" type="Normal"/>
@@ -18,11 +18,9 @@
       </DVDImages>
     </MediaRegistry>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastCloseAction" value="SaveState"/>
+      <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
       <ExtraDataItem name="GUI/LastGuestSizeHint" value="720,400"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="0,23,1920,1017,max"/>
-      <ExtraDataItem name="GUI/LastScaleWindowPosition" value="798,158,1077,633"/>
-      <ExtraDataItem name="GUI/Scale" value="true"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="42,117,720,443"/>
     </ExtraData>
     <Hardware>
       <Memory RAMSize="32"/>
@@ -34,11 +32,6 @@
         <Order position="4" device="None"/>
       </Boot>
       <Display VRAMSize="5"/>
-      <Firmware/>
-      <BIOS>
-        <SmbiosUuidLittleEndian enabled="true"/>
-        <AutoSerialNumGen enabled="true"/>
-      </BIOS>
       <USB>
         <Controllers>
           <Controller name="OHCI" type="OHCI"/>
@@ -88,17 +81,10 @@
           </DisabledModes>
         </Adapter>
       </Network>
-      <UART>
-        <Port slot="0" enabled="true" IOBase="0x3f8" IRQ="4" hostMode="Disconnected"/>
-      </UART>
       <AudioAdapter controller="SB16" driver="WAS" enabled="true" enabledIn="true" enabledOut="true"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/GuestAdd/GuiOnFocus" value="1" timestamp="1764070871764450700" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pl_PL" timestamp="1764070871758580200" flags="RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="169112" timestamp="1764070489615835302" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.1.10" timestamp="1764070489615835300" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.1.10" timestamp="1764070489615835301" flags="TRANSIENT, RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pl_PL" timestamp="1764676601283545800" flags="RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="Kontroler IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
